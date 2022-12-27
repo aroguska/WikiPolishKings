@@ -4,10 +4,10 @@ namespace WikiPolishKings
 {
     public class KingModel
     {
-        public KingModel(string Name, string BiginningOfTheReign, string EndOfTheReign)
+        public KingModel(string Name, string BeginningOfTheReign, string EndOfTheReign)
         {
             this.Name = Name; 
-            this.BeginningOfTheReign = BiginningOfTheReign;
+            this.BeginningOfTheReign = BeginningOfTheReign;
             this.EndOfTheReign = EndOfTheReign;
         }
         public string Name { get; set; }
